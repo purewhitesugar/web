@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./webfont/cabinsketch-regular-webfont.eot');
+    src: url('./webfont/cabinsketch-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webfont/cabinsketch-regular-webfont.woff2') format('woff2'),
+         url('./webfont/cabinsketch-regular-webfont.woff') format('woff'),
+         url('./webfont/cabinsketch-regular-webfont.ttf') format('truetype'),
+         url('./webfont/cabinsketch-regular-webfont.svg#cabinsketchregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat;
+	background-image: url(img/sand-texture4.jpg);
+}
+
+#wrap{
+	width: 1600px;
+	height: 1200px;
+}
+header {
+	height: 90px;
+	width: 1600px;
+	background-color: #099;
+	box-shadow: 0px 2px 3px 2px #033;
+}
+.nav {
+	font-size: 22px;
+	color: #FFF;
+	float: right;
+	height: 100%;
+	width: 120px;
+	margin-left: 10px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: ;
+	line-height: 85%;
+	font-family: Cabin;
+	font-weight:;
+}
+
+footer {
+	display: block;
+	background-color: #099;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-bottom: 6px;
+	color: #FFF;
+	line-height: 10%;
+	text-align: right;
+	height: 20px;
+	width: 1600px;
+	margin-top: 600px;
+	position: absolute;
+}
+	
+.png {
+	display: block;
+	float: right;
+	clear: left;
+	margin-bottom: 40px;
+	position: relative;
+	right: 150px;
+	top: 200px;
+}
+.welcome {
+	display: inline-block;
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 35px;
+	margin-left: 250px;
+	margin-top: 170px;
+	
+}
+blockquote {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 30px;
+	font-style: normal;
+	display: inline-block;
+	width: 450px;
+	margin-left: 550px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+.logo {
+	z-index: 1;
+	display: inline;
+	margin-top: -80px;
+	margin-left: 15px;
+	position: absolute;
+}
+.hair, .salon {
+	padding: 15px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.hairpics {
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 70px;
+	clear: right;
+}
+.sub {
+	display: inline;
+	background-color: #3CC;
+	height: 30px;
+	width: 1600px;
+	position: absolute;
+	margin-bottom: 20px;
+	padding: 5px 0 5px 0;
+	box-shadow: 0px 2px 3px 2px #033;
+}
+.services {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	text-indent: 30px;
+	margin-top: 170px;
+}
+.subnav {
+	font-family: Cabin;
+	color: #FFF;
+	font-size: 18px;
+	float: right;
+	width: 200px;
+	height: 25px;
+	padding: 0 2px 0 2px;
+	margin-left: 5px;
+	line-height: 0px;
+	
+}
+table {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.underline {
+	background-color: #099;
+	height: 4px;
+	width: 60%;
+	margin-bottom: 10px;
+}
+h2 {
+	font-family: Cabin;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 100;
+}
+h3 {
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 20px;
+	text-indent: 30%;
+}
+.newdiv h1 {
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 36px;
+	text-align: center;
+}
+.newdiv {
+	margin-top: 100px;
+}
+.newdiv img {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	display: block;
+}
+.news {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	width: 370px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+.products {
+	font-family: Cabin;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	clear: both;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.products p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	text-align: center;
+}
+.products img {
+	clear: both;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	display: block;
+}
+.staff {
+	margin-top: 150px;
+	margin-bottom: px;
+	text-align: center;
+}
+.profile {
+	width: 60%;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	padding: 25px;
+	clear: both;
+}
+
+.profile img {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.profile h1 {
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 36px;
+	text-align: left;
+}
+.profile h4 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+}
+.profile p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	text-align: left;
+}
+.contact {
+	width: 50%;
+	margin-top: 170px;
+	margin-left: 300px;
+}
+iframe {
+	display: inline-block;
+	float: right;
+	margin-bottom: 50px;
+	border: 2px solid #099;
+}
+.contact a {
+	color: #000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.contact h4 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: 900;
+	font-size: 16px;
+}
+.contact p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+form {
+	display: block;
+	width: 230px;
+	margin-top: 170px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+}
+
+input {
+	width:200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+label {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.about {
+	margin-top: 70px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-align: center;
+}
+span {
+	font-size: 30px;
+	line-height: -50px;
+}
+
+.about h1 {
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 50px;
+}
+.links {
+	width: 60%;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	text-align: center;
+}
+.links h3 {
+	text-align: center;
+	margin-left: -250px;
+}
+.links h1 {
+	font-family: Cabin;
+	font-weight: 100;
+	font-size: 40px;
+}
+.links p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.links .underline {
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
